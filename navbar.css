@@ -1,0 +1,65 @@
+body {
+  padding-bottom: 20px;
+  background-color: #181818;
+}
+
+.navbar {
+  background-color: #000 !important;
+  padding-bottom: 20px;
+}
+.container{
+  display: flex;
+  flex-direction:row;
+}
+.tedx-image{
+  padding-left: 5vw;
+  padding-top: 2vh;
+  width:30%;
+}
+.navbar-nav{
+  padding-top: 2vh;
+  padding-left: 4.5vw;
+}
+.background{
+  height:90vh;
+  background-image: url(bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+.banTitle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3vw;
+  color: rgba(255,255,255,1);
+  border: 6px solid rgba(255,255,255,1);
+  padding: 10px 40px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.banTitle .boldspan {
+  color: rgba(230,43,30,1);
+}
+
+@media screen and (max-width:991px) {
+  .row{
+    width:80%;
+  }
+  .banTitle{
+    width:60%;
+  }
+}
+@media screen and(max-width:600px){
+  .banTitle{
+    width:90% !important;
+    font-size: 3.5vw;
+  }
+}
+@media screen and(max-width:400px){
+  .banTitle{
+    width:70%;
+    font-size: 3.5vw;
+  }
+}
