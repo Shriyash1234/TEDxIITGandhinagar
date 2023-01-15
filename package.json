@@ -1,0 +1,22 @@
+{
+  "name": "tedxiitgandhinagar",
+  "version": "1.0.0",
+  "description": "Website for TEDxIITGandhinagar 2023 event",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shriyash1234/TEDxIITGandhinagar.git"
+  },
+  "author": "Shriyash Mandavekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shriyash1234/TEDxIITGandhinagar/issues"
+  },
+  "homepage": "https://github.com/Shriyash1234/TEDxIITGandhinagar#readme",
+  "dependencies": {
+    "sweetalert": "^2.1.2"
+  }
+}

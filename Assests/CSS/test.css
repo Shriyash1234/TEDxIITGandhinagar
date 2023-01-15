@@ -116,9 +116,9 @@
   text-align: center;
 }
 #link1,#link2,#link3{
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     border-radius: 10px;
-    padding: 1.5vw 5vw ;
+    padding: 1vw 3.5vw ;
     font-weight: 600;
     margin-left: 8vh;
   }
@@ -210,7 +210,7 @@ h2::after {
 } */
 h2{
   text-align: center;
-  font-size: 5rem;
+  font-size: 2.8vw;
   color: white;
 }
 .red-text{
@@ -230,7 +230,7 @@ h2{
   margin-top: 80px;
     display: flex;
     justify-content: center;
-    height: 50vh;
+    height: 25vw;
     padding: 25px 15px;
     /* background: #fff; */
     border-radius: 6px;
@@ -251,8 +251,8 @@ h2{
 }
 .carousel .item img {	
     top:0px;
-    height: 70%;
-    width: 70%;
+    height: 15vw;
+    width: 15vw;
     object-fit: cover;
     max-width: 100%;
     max-height: 100%;
@@ -270,16 +270,16 @@ h2{
 } */
 .carousel .item h2{
   position: absolute;
-  top:70%;
+  top:15vw;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 1.5vw;
   color: #fff;
   margin: 15px 0;
 }
 .carousel .item p{
-  position: relative;
-  top:96%;
+  position: absolute;
+  top:19vw;
   font-weight: 600;
   font-size: 24px;
 }
@@ -411,6 +411,33 @@ h2{
 }
 
 
+/* message box CSS */
+.box-message{
+  display: flex;
+  justify-content: center;
+  transition: all 1s ease;
+}
+.message-box{
+  display: none;
+  margin-top: 15vh;
+  top: -80vh;
+  height: 65vh;
+  width: 60vw;
+  position: fixed;
+  background-color: white;
+  transition: all 1s ease;
+}
+.box-message .message-box button{
+  border: none;
+  font-size: 3vh;
+  height: 5vh;
+  width: 5vh;
+  position: absolute;
+  right: 0px;
+  background-color: white;
+}
+/* message box CSS complete */
+
 @media screen and (max-width:991px) {
   .nav-row{
     width:80%;
@@ -442,7 +469,26 @@ h2{
   .phone{
       display: block;
   }
-}
+  .carousel .item img {	
+    top:0px;
+    height: 40vw;
+    width: 40vw;
+  }
+  .mobile-wrapper{
+    height: 55vw !important;
+  }
+  .carousel .item h2{
+    font-size: 2.2rem;
+    top:40vw;
+  }
+  .carousel .item p{
+    top:47vw;
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 5vw;
+  }
+} 
 @media screen and (max-width:600px){
   .banTitle{
     width:90% !important;
@@ -450,6 +496,9 @@ h2{
   }
   #link1,#link2,#link3{
     font-size: 2vw;
+  }
+  .carousel .item h2{
+    margin-bottom: 3vw;
   }
 }
 @media screen and (max-width:505px){
@@ -462,6 +511,12 @@ h2{
   }
   .card-header{
     padding: 0;
+  }
+  .mobile-wrapper{
+    height:60vw !important;
+  }
+  .carousel .item p{
+    top: 49vw;
   }
 }
 @media screen and (max-width:390px){
@@ -477,5 +532,11 @@ h2{
   .nav{
     flex-direction: column;
     align-items: center;
+  }
+  .mobile-wrapper{
+    height:70vw !important;
+  }
+  .carousel .item p{
+    top: 59vw;
   }
 }

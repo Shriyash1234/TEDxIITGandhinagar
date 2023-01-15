@@ -48,3 +48,41 @@ $('a.nav-link.first,a.nav-link.second,a.nav-link.third').mouseover(function() {
 $('a.nav-link.first,a.nav-link.second,a.nav-link.third').mouseout(function() {
   $(this).removeClass('shadow-inset-center');
 });
+
+$('button.close').on('click',function(){
+  const vh = window.innerWidth;
+  console.log('clicked');
+   setTimeout(function() {
+    $('.message-box').css('display','none');
+  }, 1000);
+  $('.message-box').css("transform","translate(0,-70vh)");
+   
+ 
+})
+$('.thumb-wrapper').on('click',function(){
+  console.log('clicked');
+  $('.message-box').css('display','flex');
+  setTimeout(function() {
+    $('.message-box').css("transform","translate(0,70vh)");
+  }, 100);
+  
+})
+  
+
+//  $('.thumb-wrapper').on('click',function(){
+//   swal("Hello world!");
+//  });
+
+//  var name = "John Doe";
+// var bio = "Software developer with 5 years of experience";
+// var imgUrl = "https://example.com/images/johndoe.jpg";
+
+// document.getElementsByClassName("thumb-wrapper")[0].addEventListener("click", function(){
+//   var message = "<img src='" + imgUrl + "' alt='" + name + "'>";
+//   message += "<br>Name: " + name + "<br>Bio: " + bio;
+
+//   document.getElementById("messageBox").innerHTML = message;
+//   alert(document.getElementById("messageBox").innerHTML);
+// });
+
+
