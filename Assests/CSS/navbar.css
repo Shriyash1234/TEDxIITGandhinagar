@@ -27,8 +27,21 @@ body {
 }
 
 .navbar {
+  /* to make the navbar sticky */
+  position: fixed;
+  top: 0;
+  width: 100vw;
   background-color: #000 !important;
-  padding-bottom: 8px;
+  padding-bottom: 20px;
+  z-index: 100;
+}
+
+.collapse {
+  padding-left: 18px;
+}
+
+.nav-item:hover {
+  border-bottom: 0.8px solid red;
 }
 .container{
   display: flex;
@@ -37,11 +50,12 @@ body {
 .tedx-image{
   padding-left: 5vw;
   padding-top: 2vh;
-  width:30%;
+  width:70%;
 }
 .navbar-nav{
   padding-top: 2vh;
-  padding-left: 4.5vw;
+/*   padding-left: 4.5vw; */
+  padding-left: 52.5vw;
 }
 .background{
   height:90vh;
