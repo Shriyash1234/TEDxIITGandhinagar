@@ -28,11 +28,12 @@ body {
 
 .navbar {
   /* to make the navbar sticky */
-  position: sticky;
+  position: fixed;
   top: 0;
-	
+  width: 100vw;
   background-color: #000 !important;
-  padding-bottom: 8px;
+  padding-bottom: 20px;
+  z-index: 100;
 }
 
 .collapse {
