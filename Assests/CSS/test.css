@@ -24,18 +24,34 @@
     padding-bottom: 20px;
     background-color: #000;
   }
+  .container{
+    display: flex;
+    flex-direction:row;
+  }
   /* .container{
     display: flex;
     flex-direction:row;
   } */
 /* navbar CSS */
 .navbar {
-    background-color: #000 !important;
-    padding-bottom: 8px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: #000 !important;
+  padding-bottom: 20px;
+  z-index: 100;
   }
   .navbar-nav{
     padding-top: 2vh;
-    padding-left: 4.5vw;
+    /* padding-left: 4.5vw; */
+    padding-left: 52.5vw;
+  }
+  .collapse {
+    padding-left: 18px;
+  }
+  
+  .nav-item:hover {
+    border-bottom: 0.8px solid red;
   }
 /* navbar CSS complete */
 

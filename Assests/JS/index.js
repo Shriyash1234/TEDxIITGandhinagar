@@ -55,7 +55,7 @@ $('button.close').on('click',function(){
    setTimeout(function() {
     $('.message-box').css('display','none');
   }, 1000);
-  $('.message-box').css("transform","translate(0,-70vh)");
+  $('.message-box').css("transform","translate(0,-80vh)");
    
  
 })
@@ -63,7 +63,7 @@ $('.thumb-wrapper').on('click',function(){
   console.log('clicked');
   $('.message-box').css('display','flex');
   setTimeout(function() {
-    $('.message-box').css("transform","translate(0,70vh)");
+    $('.message-box').css("transform","translate(0,80vh)");
   }, 100);
   
 })
