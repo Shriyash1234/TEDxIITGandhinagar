@@ -10,29 +10,162 @@ body{
   }
 /* navbar CSS */
 .navbar {
-  width:100vw;
+  /* to make the navbar sticky */
+  position: fixed;
+  top: 0;
+  width: 100vw;
   background-color: #000 !important;
-  padding-bottom: 8px;
+  padding-bottom: 20px;
+  z-index: 100;
+}
+.nav-bar {
+  top:0%;
+  margin: 1.5vw ;
+  margin-top: 0vw;
+  padding-top: 1vw;
+  z-index: 100;
+  position: fixed !important;
+  height: 5vw;
+  width: 100%;
+  background-color: #000;
+  position: relative;
+}
+.nav-btn{
+  padding-right:5vw;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+.nav-tabs{
+  border: 0px;
+}
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  background-color: #000 !important;
+  margin-right: 3vw;
+  position: absolute;
+  right: 0%;
+  display: inline;
+  float: right;
+  font-size: 1.5rem;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.nav-bar{
+  left:0;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:768px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-links {
+    padding-right: 3vw;
+    text-align: end;
+    top:60px !important;
+  }
+  
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+    cursor:pointer;
+  }
+  .nav > .nav-links {
+    position: absolute;
+/*     display: block; */
+    width: 100%;
+    background-color: #333;
+    max-height: 0px;
+    transition: all 0.5s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    max-height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+/*     height: calc(100vh - 50px); */
+    max-height:200px;
+    overflow-y: hiddin;
+  }
+}
+
+.collapse {
+  padding-left: 18px;
+}
+
+.section-item:hover {
+  border-bottom: 1px solid red;
+}
+
+.container{
+  display: flex;
+  flex-direction:row;
+}
+.tedx-image{
+  position: absolute;
+  left:0%;
+  padding-left: 5vw;
+  padding-top: 0vh;
+  width:30rem;
 }
 .navbar-nav{
   padding-top: 2vh;
-  padding-left: 4.5vw;
-}
-.red-txt{
-  color:red;
-}
-.tedx-image{
-  height: 3vw;
-  width:3vw;
+/*   padding-left: 4.5vw; */
+  padding-left: 52.5vw;
 }
 /* navbar CSS complete */
 .team-heading{
-  font-size: 2.5rem;
-  margin-top: 2vw;
-  margin-left:8vw;
+  color: white !important;
+  font-size: 3.5rem;
+  margin-top: 7vw;
+  margin-left:4vw;
 }
-  h2{
-    color: white;
+  .red-txt{
+    color: red;
   }
   .box{
     width: 90vw;
@@ -116,14 +249,14 @@ body{
    margin: 0;
    padding: 0;
    font-weight: 600;
-   font-size: 1rem;
+   font-size: 1.6rem;
    color: #777;
    text-transform: uppercase;
   } 
 
   .card .details h2 span{
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   color: #f38695;
   display: block;
   margin-top: 5px;
@@ -143,6 +276,13 @@ body{
     width:30vw !important;
     margin: 2vw;
   }
+  .intial{
+    margin-top: 12vw;
+  }
+  .team-heading{
+    font-size:4rem;
+    margin-left: 11vw;
+  }
 }
 @media screen and (max-width:768px){
   .box1{
@@ -154,5 +294,8 @@ body{
     height:60vw !important;
     width:70vw !important;
     margin: 5vw;
+  }
+  .intial{
+    margin-top: 20vw;
   }
 }
