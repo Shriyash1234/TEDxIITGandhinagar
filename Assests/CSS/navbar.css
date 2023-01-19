@@ -18,6 +18,7 @@
             box-shadow: inset 0 0 14px 0px rgba(0, 0, 0, 0.5);
   }
 }
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 
 body {
@@ -37,12 +38,12 @@ body {
 }
 .nav-bar {
   top:0%;
-  margin: 1.5vw ;
+  margin: 1.5vw 0vw;
   margin-top: 0vw;
   padding-top: 1vw;
   z-index: 100;
   position: fixed !important;
-  height: 10vh;
+  height: 12vh;
   width: 100%;
   background-color: #000;
   position: relative;
@@ -69,8 +70,9 @@ body {
 }
 
 .nav > .nav-links {
+  margin-top: 0.3vw;
   background-color: #000 !important;
-  margin-right: 3vw;
+  margin-right: 5vw;
   position: absolute;
   right: 0%;
   display: inline;
@@ -79,10 +81,13 @@ body {
 }
 
 .nav > .nav-links > a {
+  font-size: 1.6rem;
+  font-family: raleway,sans-serif;
   display: inline-block;
-  padding: 13px 10px 13px 10px;
+  padding: 13px 14px;
   text-decoration: none;
   color: #efefef;
+  font-weight: 600;
 }
 
 .nav > .nav-links > a:hover {
@@ -132,8 +137,10 @@ body {
     overflow-y: hidden;
     top: 50px;
     left: 0px;
+    padding-right: 10vw;
   }
   .nav > .nav-links > a {
+    font-size: 1rem;
     display: block;
     width: 100%;
   }
@@ -146,13 +153,23 @@ body {
     overflow-y: hiddin;
   }
 }
-
+.get-tickets{
+  font-family: Raleway,sans-serif;
+  color: #fff;
+  background-color: rgb(254, 42, 6);
+  font-weight: 600;
+  padding: 0.5vw 1.5vw;
+  border-radius: 10px;
+}
+.get-tickets:hover{
+  background-color: #181818;
+}
 .collapse {
   padding-left: 18px;
 }
 
-.section-item:hover {
-  border-bottom: 1px solid red;
+.nav > .nav-links > a:hover {
+  color: red;
 }
 
 
@@ -178,7 +195,8 @@ body {
   background-image: url(/Assests/img/bg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center
+  background-position: center;
+  background-attachment: fixed;
 }
 .banTitle{
   position: absolute;
@@ -194,7 +212,7 @@ body {
 }
 
 .banTitle:hover{
-  font-size: 3.5vw;
+  font-size: 3.2vw;
 }
 .banTitle .boldspan {
   color: rgba(230,43,30,1);
@@ -249,12 +267,14 @@ body {
   padding-top: 12vh;
 } */
 #link1,#link2,#link3{
+  font-family: Raleway,sans-serif;
   font-size: 1.1vw;
   border-radius: 10px;
   padding: 1vw 4vw ;
-  font-weight: 600;
+  font-weight: 900;
   margin-left: 8vh;
 }
+
 .about-heading{
   cursor: pointer;
   text-align: center;
@@ -270,7 +290,7 @@ body {
     font-family: Arial;
 }
 .para-tab {
-	color: #888;
+	color: #fff;
 	text-align: left;
 }
 .nav-link {
@@ -281,8 +301,9 @@ body {
 	color: rgb(230, 43, 30) !important;
 }
 .inactive{
+  color: #000 !important;
   color: white !important;
-  background-color: #888 !important;
+  background-color: #979797 !important;
 }
 /* .nav-item>.active {
 	background: white !important;
@@ -295,6 +316,7 @@ body {
 	color: rgb(230, 43, 30) !important;
 }
 .para-tab{
+  font-family: Montserrat;
   padding: 2vw 3vw;
   font-size: 2rem;
 }
@@ -323,9 +345,11 @@ body {
 
 /* current-speakers CSS */
 h2{
+  font-family: Raleway,sans-serif;
   text-align: center;
-  font-size: 2.8vw;
+  font-size: 5.5rem;
   color: white;
+  font-weight: 600;
 }
 .red-text{
   color: red;
@@ -341,6 +365,7 @@ h2{
     overflow: hidden;
 }
 .carousel .thumb-wrapper {
+  font-family: Raleway,sans-serif;
   margin-top: 80px;
     display: flex;
     justify-content: center;
@@ -532,14 +557,17 @@ h2{
   transition: all 1s ease;
 }
 .message-box{
+  display: flex;
   display: none;
   margin-top: 15vh;
   top: -80vh;
-  height: 65vh;
-  width: 60vw;
+  height: 72vh;
+  width: 65vw;
   position: fixed;
-  background-color: white;
+  background-color: #1B1717;
   transition: all 1s ease;
+  z-index: 101;
+  border-radius: 3%;
 }
 .box-message .message-box button{
   border: none;
@@ -547,8 +575,55 @@ h2{
   height: 5vh;
   width: 5vh;
   position: absolute;
+  top:0px;
   right: 0px;
-  background-color: white;
+  color: #000;
+}
+.box-message .message-box .speaker-images .img-responsive{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0% 3% 3% 0%;
+  /* filter:drop-shadow(16px 16px 10px black); */
+}
+.box-message .message-box .speaker-images{
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.box-message .message-box .speaker-information{
+  word-wrap: break-word;
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  padding: 1.8vw 1.5vw 2.5vw 3vw;
+  width: 55%;
+  
+}
+.box-message .message-box .speaker-information h2{
+  text-align: left;
+  color: #f00;
+  font-weight: 600;
+  font-size: 3rem;
+  font-style: italic;
+  margin-top: 5px;
+  font-family: Raleway,sans-serif;
+}
+.box-message .message-box .speaker-information h3{
+  color: #EBFFFB;
+  font-size: 2rem;
+  margin: 1vw 0px 1.5vw 0px;
+  font-style: italic;
+  font-family: Raleway,sans-serif;
+  
+}
+.box-message .message-box .speaker-information p{
+  color: #EBFFFB;
+  font-size: 1.6rem;
+  margin: 0px;
+  font-family: Montesserat;
 }
 /* message box CSS complete */
 
@@ -560,7 +635,7 @@ h2{
     width:60%;
   }
   #link1,#link2,#link3{
-    font-size: 1rem;
+    font-size: 1.7rem;
   }
   .carousel{
     padding: 0 10px;
@@ -602,20 +677,30 @@ h2{
   h2{
     font-size: 5vw;
   }
+  .nav>.nav-links{
+    padding-right: 5vw !important;
+  }
+  .nav > .nav-links > a{
+    font-size: 2rem;
+  }
+  #link1,#link2,#link3{
+    font-size: 1.7rem;
+  }
 } 
-@media screen and (max-width:600px){
+@media screen and (max-width:606px){
   .banTitle{
     width:90% !important;
     font-size: 3.5vw;
   }
   #link1,#link2,#link3{
-    font-size: 2vw;
+    font-size: 1.5rem;
+    padding: 1vw 2.7vw;
   }
   .carousel .item h2{
     margin-bottom: 3vw;
   }
 }
-@media screen and (max-width:505px){
+@media screen and (max-width:516px){
   #link1,#link2,#link3{
     font-size: 2vw;
   }

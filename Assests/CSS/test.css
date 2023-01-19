@@ -440,7 +440,7 @@ h2{
   height: 65vh;
   width: 60vw;
   position: fixed;
-  background-color: white;
+  background-color: #252525;
   transition: all 1s ease;
 }
 .box-message .message-box button{

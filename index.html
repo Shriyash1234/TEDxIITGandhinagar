@@ -21,6 +21,11 @@
 
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- raleway fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -56,11 +61,13 @@
         
         <div class="nav-links">
           <a class="section-item" href="index.html" target="_blank">Home</a>
-          <a class="section-item" href="#" target="_blank">About</a>
-          <a class="section-item" href="#" target="_blank">Speakers</a>
+          <a class="section-item" href="#About-tedx" target="_blank">About</a>
+          <a class="section-item" href="#speakers" target="_blank">Speakers</a>
           <a class="section-item" href="#" target="_blank">Talk</a>
           <a class="section-item" href="team.html" target="_blank">Team</a>
+          <a href="registeration.html"><button class="get-tickets">Get Tickets</button></a>
         </div>
+        
       </div>
 
       <section class="background">
@@ -71,7 +78,7 @@
         
       </section> 
       
-      <section class="about">
+      <section class="about" id="About-tedx">
         <!-- <h2 class="about-heading">ABOUT</h2> -->
         <div class="row about-row" id="about" data-scroll-section>
           <div class="card col-sm-12 col-md-12">
@@ -105,7 +112,7 @@
           </div>
         </div>
       </section>
-      <section class="current-speakers laptop">
+      <section class="current-speakers laptop" id="speakers">
         <h2><span class="red-text">Current </span>Speakers</h2>
         <!-- <div class="container">  -->
           <div class="row ">
@@ -227,18 +234,23 @@
                 </div>
             </div>
         </div>
-        <div id="messageBox"></div>
         </div>
         </div>
     </section>  
     
-    <section class="box-message">
+    <div class="box-message">
       <div class="message-box">
-        <!-- <img src="/Assests/img/speakers-images/person1.jpg" class="img-responsive" alt=""> -->
-        <!-- <h2>Marie B. Wick</h2> -->
-        <button class="close">x</button>
-      <div>
-    </section>
+        <div class="speaker-information">
+          <h2>Neeraj Chopra</h2>
+          <h3>Sports Person</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+        </div>
+        <div class="speaker-images">
+          <img src="/Assests/img/speakers-images/person1.jpg" class="img-responsive" alt="">
+          <button class="close">x</button>
+        </div>
+      </div>  
+    </div>
         
     </main>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

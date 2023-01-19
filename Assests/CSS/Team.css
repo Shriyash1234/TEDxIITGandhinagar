@@ -33,7 +33,14 @@ body{
 .nav-btn{
   padding-right:5vw;
 }
-
+.get-tickets{
+  font-family: Raleway,sans-serif;
+  color: #fff;
+  background-color: rgb(254, 42, 6);
+  font-weight: 600;
+  padding: 0.5vw 1.5vw;
+  border-radius: 10px;
+}
 .nav > .nav-header {
   display: inline;
 }
@@ -62,6 +69,7 @@ body{
 }
 
 .nav > .nav-links > a {
+  font-family: Raleway,sans-serif;
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
@@ -128,7 +136,7 @@ body{
   }
   .nav > #nav-check:checked ~ .nav-links {
 /*     height: calc(100vh - 50px); */
-    max-height:200px;
+    max-height:450px;
     overflow-y: hiddin;
   }
 }
@@ -159,6 +167,7 @@ body{
 }
 /* navbar CSS complete */
 .team-heading{
+  font-family: Raleway,sans-serif;
   color: white !important;
   font-size: 3.5rem;
   margin-top: 7vw;
