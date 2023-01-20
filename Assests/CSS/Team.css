@@ -242,7 +242,11 @@ body{
   
   .card:hover .imgBx
   {
-    bottom: 80px;
+    bottom: 90px;
+  }
+  .card:hover .details{
+    display: flex;
+    flex-direction: column;
   }
 
   .card .imgBx img{
@@ -255,12 +259,13 @@ body{
   }
 
   .card .details{
-      position: absolute;
-      left: 10px;
-      right: 10px;
-      bottom: 0.2vw;
-      height: 60px;
-      text-align: center;
+    display: none;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 1.5vw;
+    height: 60px;
+    text-align: center;
   }
 
   .card .details h2{
@@ -278,7 +283,21 @@ body{
   color: #f38695;
   display: block;
   margin-top: 5px;
-   } 
+   }
+
+  /* icons css */
+  .contact-icons{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  }
+  .contact-icons img{
+  height: 3rem;
+  width: 3rem;
+  } 
+  
+  /* icons css complete */
 @media screen and (max-width:991px){
   .box{
     flex-wrap: wrap;
@@ -301,6 +320,13 @@ body{
     font-size:4rem;
     margin-left: 11vw;
   }
+  .card .details{
+    bottom: 2vw;
+  }
+  .card .details h2{
+    font-size: 2rem;
+  }
+  
 }
 @media screen and (max-width:768px){
   .box1{
@@ -322,9 +348,48 @@ body{
   .nav > .nav-links > a{
     font-size: 2rem;
   }
+  .card .details h2{
+    font-size: 2.5rem;
+  }
+  .card .details h2 span{
+
+    font-size: 1.5rem;
+  }
+  .card:hover .imgBx
+  {
+    bottom: 120px;
+  }
+  .card .details{
+    bottom:6vw;
+  }
 }
 @media screen and (max-width:600px){
   .intial{
     margin-top: 26vw;
+  }
+  .card:hover .imgBx
+  {
+    bottom: 100px;
+  }
+}
+@media screen and (max-width:479px){
+ 
+  .card:hover .imgBx
+  {
+    bottom: 80px;
+  }
+  .card .details h2{
+    font-size: 1.8rem;
+  }
+  .card .details h2 span{
+
+    font-size: 1.2rem;
+  }
+  .card .details{
+    bottom:4.8vw;
+  }
+  .contact-icons img{
+    height: 2.5rem;
+    width: 2.5rem;
   }
 }
