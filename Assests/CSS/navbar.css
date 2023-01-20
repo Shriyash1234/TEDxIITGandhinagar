@@ -24,9 +24,10 @@
 body {
   overflow-x: hidden;
   padding-bottom: 20px;
-  background-color: #000;
+  background-color: #1c1c1c;
 }
 
+/* navbar css */
 .navbar {
   /* to make the navbar sticky */
   position: fixed;
@@ -81,6 +82,8 @@ body {
 }
 
 .nav > .nav-links > a {
+  position: relative;
+  top:-10px;
   font-size: 1.6rem;
   font-family: raleway,sans-serif;
   display: inline-block;
@@ -155,6 +158,7 @@ body {
 }
 .get-tickets{
   font-family: Raleway,sans-serif;
+  border:0px !important;
   color: #fff;
   background-color: rgb(254, 42, 6);
   font-weight: 600;
@@ -172,6 +176,7 @@ body {
   color: red;
 }
 
+/* navbar css complete */
 
 .container{
   display: flex;
@@ -226,16 +231,16 @@ body {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #000;
+  background-color: #1c1c1c;
   background-clip: border-box;
-  border: 1px solid rgba(0,0,0,.125);
+  border: 0px solid rgba(0,0,0,.125);
   border-radius: 0.25rem;
 }
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(0,0,0,.03);
-  border-bottom: 1px solid rgba(0,0,0,.125);
+  background-color:#1c1c1c;
+  border: 0px;
 }
 
 .nav {
@@ -275,12 +280,17 @@ body {
   margin-left: 8vh;
 }
 
+
 .about-heading{
   cursor: pointer;
   text-align: center;
   font-size: 3rem;
   color: #f00;
   transition: all 0.3s ease;
+}
+.about h2{
+  display: block;
+  margin-bottom: 3vw;
 }
 .about-heading:hover{
   font-size: 3.6rem;
@@ -367,15 +377,15 @@ h2{
 .carousel .thumb-wrapper {
   font-family: Raleway,sans-serif;
   margin-top: 80px;
-    display: flex;
-    justify-content: center;
-    height: 25vw;
-    padding: 25px 15px;
-    /* background: #fff; */
-    border-radius: 6px;
-    text-align: center;
-    position: relative;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  height: 25vw;
+  padding: 25px 15px;
+  /* background: #fff; */
+  border-radius: 6px;
+  text-align: center;
+  position: relative;
+  /* box-shadow: 0 2px 3px rgba(0,0,0,0.2); */
 }
 .carousel .thumb-wrapper:hover{
   box-shadow: 1px 10px 20px red;
@@ -554,7 +564,7 @@ h2{
 .box-message{
   display: flex;
   justify-content: center;
-  transition: all 1s ease;
+  transition: all 0.5s ease;
 }
 .message-box{
   display: flex;
@@ -562,10 +572,10 @@ h2{
   margin-top: 15vh;
   top: -80vh;
   height: 72vh;
-  width: 65vw;
+  width: 67vw;
   position: fixed;
   background-color: #1B1717;
-  transition: all 1s ease;
+  transition: all 0.5s ease;
   z-index: 101;
   border-radius: 3%;
 }
@@ -621,12 +631,69 @@ h2{
 }
 .box-message .message-box .speaker-information p{
   color: #EBFFFB;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   margin: 0px;
   font-family: Montesserat;
 }
 /* message box CSS complete */
 
+/* footer CSS */
+footer {
+  bottom: 0px;
+  background: black;
+  padding: 30px 0;
+  /* color: #111; */
+  font-size: 16px;
+}
+
+p{
+  color: white;
+}
+footer h4 {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 10px;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #f4511e;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  flex: 1;
+  margin-bottom: 30px;
+  margin: 0 7%;
+}
+
+/* footer CSS complete */
 @media screen and (max-width:991px) {
   .nav-row{
     width:80%;
@@ -639,6 +706,16 @@ h2{
   }
   .carousel{
     padding: 0 10px;
+  }
+  .message-box{
+    width:80vw;
+    height:75vh;
+  }
+  .box-message .message-box .speaker-information p{
+    margin-top: 1vw;
+  }
+  .box-message .message-box .speaker-information{
+    margin-top: 2vw;
   }
 }
 @media screen and (max-width:768px){
@@ -686,8 +763,42 @@ h2{
   #link1,#link2,#link3{
     font-size: 1.7rem;
   }
+  .box-message .message-box {
+    height: 80%;
+    flex-direction: column-reverse;
+  }
+  .box-message .message-box .speaker-information{
+    height: 65%;
+    width: 100%;
+  }
+  .box-message .message-box .speaker-images{
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    top:0%;
+  }
+  .box-message .message-box .speaker-images .img-responsive{
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+  }
+  .box-message .message-box .speaker-information{
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .box-message .message-box .speaker-information h2{
+    align-self: center;
+    margin-top: 0px;
+  }
+  .box-message .message-box button{
+    color: #fff;
+  }
 } 
 @media screen and (max-width:606px){
+  .speaker-images{
+    display: none !important;
+  }
   .banTitle{
     width:90% !important;
     font-size: 3.5vw;
@@ -698,6 +809,15 @@ h2{
   }
   .carousel .item h2{
     margin-bottom: 3vw;
+  }
+  .box-message .message-box{
+    height: 60%;
+  }
+  .box-message .message-box .speaker-information{
+   height: 100%;
+  }
+  .box-message .message-box .speaker-information h2{
+    padding-top: 3vw;
   }
 }
 @media screen and (max-width:516px){
@@ -725,6 +845,12 @@ h2{
   .tedx-image{
     top:0px;
   }
+  .box-message .message-box{
+    height: 75%;
+  }
+  .box-message .message-box .speaker-information h2{
+    padding-top: 8vw;
+  }
 }
 @media screen and (max-width:390px){
   .banTitle{
@@ -737,5 +863,8 @@ h2{
   }
   .carousel .item p{
     top: 59vw;
+  }
+  .box-message .message-box{
+    height: 80%;
   }
 }

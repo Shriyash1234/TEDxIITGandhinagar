@@ -20,12 +20,12 @@ body{
 }
 .nav-bar {
   top:0%;
-  margin: 1.5vw ;
+  margin: 1.5vw 0vw;
   margin-top: 0vw;
   padding-top: 1vw;
   z-index: 100;
   position: fixed !important;
-  height: 5vw;
+  height: 12vh;
   width: 100%;
   background-color: #000;
   position: relative;
@@ -33,14 +33,7 @@ body{
 .nav-btn{
   padding-right:5vw;
 }
-.get-tickets{
-  font-family: Raleway,sans-serif;
-  color: #fff;
-  background-color: rgb(254, 42, 6);
-  font-weight: 600;
-  padding: 0.5vw 1.5vw;
-  border-radius: 10px;
-}
+
 .nav > .nav-header {
   display: inline;
 }
@@ -59,8 +52,9 @@ body{
 }
 
 .nav > .nav-links {
+  margin-top: 0.3vw;
   background-color: #000 !important;
-  margin-right: 3vw;
+  margin-right: 5vw;
   position: absolute;
   right: 0%;
   display: inline;
@@ -69,18 +63,19 @@ body{
 }
 
 .nav > .nav-links > a {
-  font-family: Raleway,sans-serif;
+  position: relative;
+  top:-10px;
+  font-size: 1.6rem;
+  font-family: raleway,sans-serif;
   display: inline-block;
-  padding: 13px 10px 13px 10px;
+  padding: 13px 14px;
   text-decoration: none;
   color: #efefef;
+  font-weight: 600;
 }
 
 .nav > .nav-links > a:hover {
   background-color: rgba(0, 0, 0, 0.3);
-}
-.nav-bar{
-  left:0;
 }
 
 .nav > #nav-check {
@@ -126,8 +121,10 @@ body{
     overflow-y: hidden;
     top: 50px;
     left: 0px;
+    padding-right: 10vw;
   }
   .nav > .nav-links > a {
+    font-size: 1rem;
     display: block;
     width: 100%;
   }
@@ -136,19 +133,31 @@ body{
   }
   .nav > #nav-check:checked ~ .nav-links {
 /*     height: calc(100vh - 50px); */
-    max-height:450px;
+    max-height:400px;
     overflow-y: hiddin;
   }
 }
-
+.get-tickets{
+  font-family: Raleway,sans-serif;
+  color: #fff;
+  border:0px !important;
+  background-color: rgb(254, 42, 6);
+  font-weight: 600;
+  padding: 0.5vw 1.5vw;
+  border-radius: 10px;
+}
+.get-tickets:hover{
+  background-color: #181818;
+}
 .collapse {
   padding-left: 18px;
 }
 
-.section-item:hover {
-  border-bottom: 1px solid red;
+.nav > .nav-links > a:hover {
+  color: red;
 }
 
+/* navbar css complete */
 .container{
   display: flex;
   flex-direction:row;
@@ -305,6 +314,17 @@ body{
     margin: 5vw;
   }
   .intial{
-    margin-top: 20vw;
+    margin-top: 15vw;
+  }
+  .nav>.nav-links{
+    padding-right: 5vw !important;
+  }
+  .nav > .nav-links > a{
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width:600px){
+  .intial{
+    margin-top: 26vw;
   }
 }
