@@ -376,7 +376,7 @@ body{
  
   .card:hover .imgBx
   {
-    bottom: 80px;
+    bottom: 85px;
   }
   .card .details h2{
     font-size: 1.8rem;
@@ -389,7 +389,7 @@ body{
     bottom:4.8vw;
   }
   .contact-icons img{
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 3rem;
+    width: 3rem;
   }
 }
