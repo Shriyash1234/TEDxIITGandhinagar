@@ -25,6 +25,9 @@ body {
   overflow-x: hidden;
   background-color: #1c1c1c;
 }
+#about-tedx {
+  scroll-margin-top: 300px;
+}
 
 /* navbar css */
 .navbar {
