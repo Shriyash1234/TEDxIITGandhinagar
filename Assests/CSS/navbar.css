@@ -397,7 +397,7 @@ h2{
   font-weight: 600;
 }
 .red-text{
-  color: red;
+  color: rgb(254, 42, 6);
 }
 .carousel {
     margin: 10px auto 50px auto ;
@@ -747,6 +747,10 @@ footer a:hover {
     width:490px;
     height: 300px;
   }
+  .message-box{
+    height: 80vh;
+    width:70vw;
+  }
 }
 @media screen and (max-width:991px) {
   .nav-row{
@@ -762,8 +766,8 @@ footer a:hover {
     padding: 0 10px;
   }
   .message-box{
-    width:80vw;
-    height:75vh;
+    width:85vw;
+    height:85vh;
   }
   .box-message .message-box .speaker-information p{
     margin-top: 1vw;
@@ -834,7 +838,8 @@ footer a:hover {
     font-size: 1.7rem;
   }
   .box-message .message-box {
-    height: 80%;
+    height: 85%;
+    width: 90%;
     flex-direction: column-reverse;
   }
   .box-message .message-box .speaker-information{
@@ -875,9 +880,10 @@ footer a:hover {
   }
 } 
 @media screen and (max-width:606px){
-  .speaker-images{
+  .speaker-images img{
     display: none !important;
   }
+  
   .banTitle{
     width:90% !important;
     font-size: 3.5vw;
@@ -925,13 +931,13 @@ footer a:hover {
     top:0px;
   }
   .box-message .message-box{
-    height: 85%;
+    height: 75%;
   }
   .box-message .message-box .speaker-information h2{
     padding-top: 8vw;
   }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:430px){
   .banTitle{
     width:70%;
     font-size: 3.5vw;
@@ -943,6 +949,11 @@ footer a:hover {
   .carousel .item p{
     top: 59vw;
   }
+  .box-message .message-box{
+    height: 80%;
+  }
+}
+@media screen and (max-width:400px){
   .box-message .message-box{
     height: 90%;
   }
