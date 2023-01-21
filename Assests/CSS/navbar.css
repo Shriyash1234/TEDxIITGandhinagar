@@ -23,7 +23,6 @@
 
 body {
   overflow-x: hidden;
-  padding-bottom: 20px;
   background-color: #1c1c1c;
 }
 
@@ -225,7 +224,7 @@ body {
 
 /* video section css */
 .teaser-video{
-  padding: 5vw 0;
+  padding: 5vw 0vw;
   margin-bottom: 5vw;
   background-color: #000;
   transform: skewY(-2deg);
@@ -242,12 +241,12 @@ body {
 }
 .theme{
   font-family: Montserrat;
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   align-content: center;
-  width:48vw;
+  width:45vw;
 }
 .video{
   display: flex;
@@ -364,7 +363,7 @@ body {
 .para-tab{
   font-family: Montserrat;
   padding: 2vw 3vw;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .about-row{
   /* width: 100vw !important; */
@@ -393,7 +392,7 @@ body {
 h2{
   font-family: Raleway,sans-serif;
   text-align: center;
-  font-size: 5.5rem;
+  font-size: 5rem;
   color: white;
   font-weight: 600;
 }
@@ -455,10 +454,10 @@ h2{
 } */
 .carousel .item h2{
   position: absolute;
-  top:15vw;
+  top:16vw;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   color: #fff;
   margin: 15px 0;
 }
@@ -466,7 +465,7 @@ h2{
   position: absolute;
   top:19vw;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 1.3vw;
 }
 .carousel .item h4 {
     font-size: 18px;
@@ -607,7 +606,7 @@ h2{
   display: none;
   margin-top: 15vh;
   top: -80vh;
-  height: 72vh;
+  height: 75vh;
   width: 67vw;
   position: fixed;
   background-color: #1B1717;
@@ -726,10 +725,29 @@ footer a:hover {
 .footer-col {
   flex: 1;
   margin-bottom: 30px;
-  margin: 0 7%;
+  margin: 0 5%;
 }
 
 /* footer CSS complete */
+
+
+@media screen and (max-width:1300px){
+  .theme-video{
+    width:90vw;
+    margin: auto;
+  }
+  .video{
+    width:42vw;
+    padding-left: 5vw;
+  }
+  .theme{
+    width:42vw;
+  }
+  iframe{
+    width:490px;
+    height: 300px;
+  }
+}
 @media screen and (max-width:991px) {
   .nav-row{
     width:80%;
@@ -752,6 +770,22 @@ footer a:hover {
   }
   .box-message .message-box .speaker-information{
     margin-top: 2vw;
+  }
+  .theme-video{
+    flex-direction: column;
+  }
+  .video{
+    width: 100%;
+    align-items: center;
+  }
+  .theme{
+    width: 70vw;
+    margin: auto;
+    padding: 3px 3px 3px 3px;
+  }
+  iframe{
+    width:70vw;
+    height:40vw;
   }
 }
 @media screen and (max-width:768px){
@@ -788,7 +822,7 @@ footer a:hover {
     font-size: 2rem;
   }
   h2{
-    font-size: 5vw;
+    font-size: 4rem;
   }
   .nav>.nav-links{
     padding-right: 5vw !important;
@@ -830,6 +864,15 @@ footer a:hover {
   .box-message .message-box button{
     color: #fff;
   }
+  .theme{
+    width: 80vw;
+    margin: auto;
+    padding: 3px 3px 3px 3px;
+  }
+  iframe{
+    width:80vw;
+    height:50vw;
+  }
 } 
 @media screen and (max-width:606px){
   .speaker-images{
@@ -847,7 +890,7 @@ footer a:hover {
     margin-bottom: 3vw;
   }
   .box-message .message-box{
-    height: 60%;
+    height: 70%;
   }
   .box-message .message-box .speaker-information{
    height: 100%;
@@ -882,13 +925,13 @@ footer a:hover {
     top:0px;
   }
   .box-message .message-box{
-    height: 75%;
+    height: 85%;
   }
   .box-message .message-box .speaker-information h2{
     padding-top: 8vw;
   }
 }
-@media screen and (max-width:390px){
+@media screen and (max-width:400px){
   .banTitle{
     width:70%;
     font-size: 3.5vw;
@@ -901,6 +944,6 @@ footer a:hover {
     top: 59vw;
   }
   .box-message .message-box{
-    height: 80%;
+    height: 90%;
   }
 }
