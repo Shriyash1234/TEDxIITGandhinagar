@@ -1,5 +1,4 @@
 
-
   
 
 //  $('.thumb-wrapper').on('click',function(){

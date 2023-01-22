@@ -26,7 +26,7 @@ body {
   background-color: #1c1c1c;
 }
 #About-tedx,#speakers {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 140px;
 }
 
 /* navbar css */
@@ -702,6 +702,17 @@ h2{
 }
 /* message box CSS complete */
 
+/* sponsers CSS */
+.sponsers{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.prev-txt{
+  margin-bottom: 5vw;
+}
+
+/* sponsers CSS complete */
 /* footer CSS */
 footer {
   bottom: 0px;
@@ -709,6 +720,9 @@ footer {
   padding: 30px 0;
   /* color: #111; */
   font-size: 16px;
+}
+.sponser{
+  margin-bottom: 5vw;
 }
 
 p{
@@ -824,7 +838,9 @@ footer a:hover {
     width:70vw;
     height:40vw;
   }
-
+  .sponsers img{
+    margin-bottom: 5vw;
+  }
 }
 @media screen and (max-width:768px){
   #link1,#link2,#link3{
@@ -944,6 +960,11 @@ footer a:hover {
   }
   .box-message .message-box .speaker-information h2{
     padding-top: 3vw;
+  }
+  .sponsers img{
+    width:70vw;
+    height: 70vw;
+    margin-bottom: 8vw;
   }
 }
 @media screen and (max-width:516px){
