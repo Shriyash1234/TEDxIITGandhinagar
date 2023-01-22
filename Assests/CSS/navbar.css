@@ -781,6 +781,9 @@ footer a:hover {
     height: 80vh;
     width:70vw;
   }
+  .previous-wrapper{
+    height:28vw !important;
+  }
 }
 @media screen and (max-width:991px) {
   .nav-row{
@@ -821,6 +824,7 @@ footer a:hover {
     width:70vw;
     height:40vw;
   }
+
 }
 @media screen and (max-width:768px){
   #link1,#link2,#link3{
@@ -845,7 +849,7 @@ footer a:hover {
     width: 40vw;
   }
   .mobile-wrapper{
-    height: 55vw !important;
+    height: 65vw !important;
   }
   .carousel .item h2{
     font-size: 2.2rem;
@@ -908,6 +912,13 @@ footer a:hover {
     width:80vw;
     height:50vw;
   }
+  .youtube-icon{
+    height: 60px !important;
+    width: 60px !important;
+    font-size: 32px !important;
+    top:48vw !important;
+    padding-top: 10px;
+  }
 } 
 @media screen and (max-width:606px){
   .speaker-images img{
@@ -948,7 +959,7 @@ footer a:hover {
     padding: 0;
   }
   .mobile-wrapper{
-    height:60vw !important;
+    height:70vw !important;
   }
   .carousel .item p{
     top: 49vw;
@@ -966,6 +977,9 @@ footer a:hover {
   .box-message .message-box .speaker-information h2{
     padding-top: 8vw;
   }
+  .carousel .item .youtube-icon{
+    top:51vw !important;
+  }
 }
 @media screen and (max-width:430px){
   .banTitle{
@@ -974,13 +988,20 @@ footer a:hover {
   }
   
   .mobile-wrapper{
-    height:70vw !important;
+    height:77vw !important;
   }
   .carousel .item p{
-    top: 59vw;
+    top: 52vw;
   }
   .box-message .message-box{
     height: 80%;
+  }
+  .carousel .item .youtube-icon{
+    font-size: 25px !important;
+    top:54vw !important;
+    padding-top: 8px;
+    height: 50px !important;
+    width: 50px !important;
   }
 }
 @media screen and (max-width:400px){
