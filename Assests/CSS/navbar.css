@@ -244,7 +244,7 @@ body {
 }
 .theme{
   font-family: Montserrat;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   color: #fff;
   display: flex;
   flex-wrap: wrap;
@@ -258,6 +258,10 @@ body {
   flex-direction: column;
   width:45vw;
   padding:2rem 2rem 2rem 2rem;
+}
+iframe{
+  width:700px;
+  height:410px;
 }
 .teaser-video h2{
   transform: skewY(2deg);
@@ -367,10 +371,7 @@ body {
 .para-tab{
   font-family: Montserrat;
   padding: 2vw 3vw;
-  font-size: 2.2rem;
-}
-.about-row{
-  /* width: 100vw !important; */
+  font-size: 2.4rem;
 }
 .fade {
   opacity: 0;
@@ -460,9 +461,6 @@ h2{
   width:45px;
   bottom:15px;
   top:19.5vw;
-}
-.youtube-icon:hover{
-  
 }
 .fa-youtube{
   padding-top: 7px;
@@ -836,6 +834,7 @@ footer a:hover {
     width: 100%;
     align-items: center;
   }
+  
   .theme{
     width: 70vw;
     margin: auto;
