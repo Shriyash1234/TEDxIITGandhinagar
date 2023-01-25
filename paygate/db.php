@@ -6,7 +6,7 @@ $dbname = 'paygate';
 
 // Create connection
 // $con = mysqli_connect('localhost', 'root', '', 'paygate');
-$cond = mysqli_connect($servername, $username, $password, $dbname);
+$con = mysqli_connect($servername, $username, $password, $dbname);
 
 ?>
 
