@@ -66,30 +66,59 @@ $('a.nav-link.first,a.nav-link.second,a.nav-link.third').mouseout(function() {
 
 let flag = 0;
 $('.close,.message-box').on('click',function(){
-  // $('.thumb-wrapper').on('click'),function(){
-  // }
-  // $('#container').lockscroll(false);
-
     $('.nav-bar').css('opacity','1');
     $('section').css('opacity','1');
      setTimeout(function() {
-      $('.message-box').css('display','none');
+      $('.message-box.first-speaker').css('display','none');
     }, 1000);
-    $('.message-box').css("transform","translate(0,-73vh)");
+    $('.message-box.first-speaker').css("transform","translate(0,-73vh)");
  
 })
-$('.thumb-wrapper').on('click',function(){
+var list = ['.first','.second','.third','.fourth','.fifth'];
+for(let i=0;i<5;i++){
+
+  $(list[i]+'-close,.message-box').on('click',function(){
+    $('.nav-bar').css('opacity','1');
+    $('section').css('opacity','1');
+     setTimeout(function() {
+      $('.message-box'+list[i]+'-speaker').css('display','none');
+    }, 1000);
+    $('.message-box'+list[i]+'-speaker').css("transform","translate(0,-73vh)");
+  })
+
+  $(list[i]+'-speaker-profile').on('click',function(){
+    $('.nav-bar').css('opacity','0.5');
+    $('section').css('opacity','0.5');
+    $('.message-box'+list[i]+'-speaker').css('display','flex');
+    $('.message-box'+list[i]+'-speaker').css('opacity','1');
+    
+    setTimeout(function() {
+      $(list[i]+'-speaker').css("transform","translate(0,73vh)");
+    }, 100);
+  })
+}
+// $(a).on('click',function(){
+//   // $('#container').lockscroll(true);
+//   $('.nav-bar').css('opacity','0.5');
+//   $('section').css('opacity','0.5');
+//   $('.message-box.first-speaker').css('display','flex');
+//   $('.message-box.first-speaker').css('opacity','1');
+  
+//   setTimeout(function() {
+//     $('.first-speaker').css("transform","translate(0,73vh)");
+//   }, 100);
+// })
+$('.second-speaker-profile').on('click',function(){
   // $('#container').lockscroll(true);
   $('.nav-bar').css('opacity','0.5');
   $('section').css('opacity','0.5');
-  $('.message-box').css('display','flex');
-  $('.message-box').css('opacity','1');
+  $('.message-box.second-speaker').css('display','flex');
+  $('.message-box.second-speaker').css('opacity','1');
   
   setTimeout(function() {
-    $('.message-box').css("transform","translate(0,73vh)");
+    $('.second-speaker').css("transform","translate(0,73vh)");
   }, 100);
 })
-
 
 //  $('.thumb-wrapper').on('click',function(){
 //   swal("Hello world!");

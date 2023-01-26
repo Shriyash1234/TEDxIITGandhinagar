@@ -95,7 +95,7 @@
   .nav > .nav-links > a {
     position: relative;
     top:-10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: raleway,sans-serif;
     display: inline-block;
     padding: 13px 14px;
@@ -790,6 +790,14 @@ footer {
     margin-bottom: 30px;
     margin: 0 5%;
   }
+  .copyright{
+    background-color: #000;
+    text-align: center;
+    color:#fff;
+    padding-top: 2vw;
+    font-size: 1.2rem;
+  }
+
   @media only screen and (max-width:1300px) {
     .timeline-right .timeline-icon{
       margin-left: 0vw;

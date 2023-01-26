@@ -189,7 +189,8 @@ body {
   left:0%;
   padding-left: 5vw;
   padding-top: 0vh;
-  width:30rem;
+  width:35rem;
+  z-index: -1;
 }
 .navbar-nav{
   padding-top: 2vh;
@@ -230,7 +231,7 @@ body {
   padding: 5vw 0vw;
   margin-bottom: 5vw;
   background-color: #000;
-  transform: skewY(-2deg);
+  /* transform: skewY(-2deg); */
 }
 
 .theme-video{
@@ -240,7 +241,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  transform: skewY(2deg);
+  /* transform: skewY(2deg); */
 }
 .theme{
   font-family: Montserrat;
@@ -259,13 +260,10 @@ body {
   width:45vw;
   padding:2rem 2rem 2rem 2rem;
 }
-iframe{
-  width:700px;
-  height:410px;
-}
-.teaser-video h2{
+
+/* .teaser-video h2{
   transform: skewY(2deg);
-}
+} */
 /* video section css complete */
 .card {
  position: relative;
@@ -414,6 +412,7 @@ h2{
     text-align: center;
     overflow: hidden;
 }
+
 .carousel .thumb-wrapper {
   font-family: Raleway,sans-serif;
   margin-top: 80px;
@@ -735,7 +734,7 @@ footer {
 footer h4 {
   margin-bottom: 20px;
   color: white;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
 }
 
@@ -751,7 +750,7 @@ footer li {
 }
 
 footer a {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: white;
   text-decoration: none;
 }
@@ -775,6 +774,13 @@ footer a:hover {
   flex: 1;
   margin-bottom: 30px;
   margin: 0 5%;
+}
+.copyright{
+  background-color: #000;
+  text-align: center;
+  color:#fff;
+  padding-top: 2vw;
+  font-size: 1.8rem;
 }
 
 /* footer CSS complete */
@@ -941,6 +947,9 @@ footer a:hover {
     top:48vw !important;
     padding-top: 10px;
   }
+  /* .teaser-video,.theme-video,.teaser-video h2{
+    transform: skewY(0deg);
+  } */
 } 
 @media screen and (max-width:606px){
   .speaker-images img{
