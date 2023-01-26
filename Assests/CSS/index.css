@@ -756,8 +756,8 @@ footer a {
 }
 
 footer a:hover {
-  color: #f4511e;
-  text-decoration: underline;
+  color: #e03a3c;
+  text-decoration: none;
 }
 
 .container {
@@ -782,7 +782,22 @@ footer a:hover {
   padding-top: 2vw;
   font-size: 1.8rem;
 }
-
+.brands{
+  color:#000;
+  border-radius:10%;
+  background-color: #fff;
+  margin-left: 1.5vw;
+  padding: 0.2vw;
+  border:2px solid #fff;
+}
+.brands:hover{
+  color: #fff;
+  border:2px solid #e03a3c;
+  background-color: #e03a3c;
+}
+.fa-facebook-f{
+  padding:0.2vw 0.4vw;
+}
 /* footer CSS complete */
 
 

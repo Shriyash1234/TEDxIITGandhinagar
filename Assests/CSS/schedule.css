@@ -768,8 +768,8 @@ footer {
   }
   
   footer a:hover {
-    color: #f4511e;
-    text-decoration: underline;
+    color: #e03a3c;
+    text-decoration: none;
   }
   
   .footer-container {
@@ -797,6 +797,23 @@ footer {
     padding-top: 2vw;
     font-size: 1.2rem;
   }
+  .fa-brands{
+    color:#000;
+    border-radius:10%;
+    background-color: #fff;
+    margin-left: 1vw;
+    padding: 0.2vw;
+    border:2px solid #fff;
+  }
+  .fa-brands:hover{
+    color: #fff;
+    border:2px solid #e03a3c;
+    background-color: #e03a3c;
+  }
+  .fa-facebook-f{
+    padding:0.2vw 0.4vw;
+  }
+  /* footer css complete */
 
   @media only screen and (max-width:1300px) {
     .timeline-right .timeline-icon{
