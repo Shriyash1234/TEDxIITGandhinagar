@@ -1,15 +1,16 @@
 window.onload =()=>{
   const vw = window.innerWidth;
   if(vw<768){
-    $('#speakers').attr('id','speakers2')
-    $('#phone-speakers').attr('id','speakers')
+    $('.a-speakers').attr('href','#phone-speakers')
   }
 }
 window.onresize =()=>{
   const vw = window.innerWidth;
   if(vw<768){
-    $('#speakers').attr('id','speakers2')
-    $('#phone-speakers').attr('id','speakers')
+    $('.a-speakers').attr('href','#phone-speakers')
+  }
+  else{
+    $('.a-speakers').attr('href','#speakers')
   }
 }
 

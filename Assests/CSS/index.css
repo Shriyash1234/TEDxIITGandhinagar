@@ -21,6 +21,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 
+html{
+  scroll-behavior: smooth;
+}
 body {
   overflow-x: hidden;
   background-color: #1c1c1c;
@@ -103,7 +106,7 @@ body {
   display: none;
 }
 
-@media (max-width:768px) {
+@media (max-width:1120px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -427,7 +430,7 @@ h2{
   /* box-shadow: 0 2px 3px rgba(0,0,0,0.2); */
 }
 .carousel .thumb-wrapper:hover{
-  box-shadow: 1px 10px 20px red;
+  box-shadow: 0px 0px 30px red;
   transform: translateY(-20px);
 }
 
