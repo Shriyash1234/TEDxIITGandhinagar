@@ -4,6 +4,7 @@
 <!-- External CSS file -->
 <style>
 <?php include 'CSS/main.css'; ?>
+<?php include '../Assets/CSS/sample.css'; ?>
 </style>  
 
 <!-- Include Nav-Bar -->
