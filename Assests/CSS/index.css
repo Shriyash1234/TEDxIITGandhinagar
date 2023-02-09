@@ -873,6 +873,9 @@ footer a:hover {
   }
 }
 @media screen and (max-width:768px){
+  .tedx-image{
+    width:30rem;
+  }
   #link1,#link2,#link3{
     font-size: 2vw;
   }
@@ -970,6 +973,9 @@ footer a:hover {
   } */
 } 
 @media screen and (max-width:606px){
+  .tedx-image{
+    width:25rem;
+  }
   .speaker-images img{
     display: none !important;
   }
@@ -1001,6 +1007,9 @@ footer a:hover {
   }
 }
 @media screen and (max-width:516px){
+  .tedx-image{
+    width:23rem;
+  }
   #link1,#link2,#link3{
     font-size: 2vw;
   }
@@ -1036,6 +1045,9 @@ footer a:hover {
   }
 }
 @media screen and (max-width:430px){
+  .tedx-image{
+    width:20rem;
+  }
   .banTitle{
     width:70%;
     font-size: 3.5vw;
