@@ -62,7 +62,7 @@ body {
 }
 
 .nav > .nav-header {
-  display: inline;
+  display: flex;
   height: 100%;
   align-items: flex-start;
 }
@@ -1044,9 +1044,6 @@ footer a:hover {
   .nav{
     flex-direction: column;
     align-items: center;
-  }
-  .tedx-image{
-    top:0px;
   }
   .box-message .message-box{
     height: 75%;
