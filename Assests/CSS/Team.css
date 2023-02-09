@@ -431,6 +431,9 @@ body{
   .nav-bar{
     height:10vh;
   }
+  .nav > .nav-header {
+    align-items: center;
+  }
   .box1{
     flex-wrap: wrap;
     align-content: center;

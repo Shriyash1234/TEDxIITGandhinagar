@@ -64,7 +64,7 @@ body {
 .nav > .nav-header {
   display: flex;
   height: 100%;
-  align-items: center;
+  align-items: flex-start;
 }
 .nav-tabs{
   border: 0px;
@@ -883,6 +883,9 @@ footer a:hover {
   }
   .nav-bar{
     height:10vh;
+  }
+  .nav > .nav-header {
+    align-items: center;
   }
   #link1,#link2,#link3{
     font-size: 2vw;
