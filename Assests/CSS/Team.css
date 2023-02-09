@@ -377,15 +377,18 @@ body{
     padding-top: 2vw;
     font-size: 1.8rem;
   }
-  .fa-brands{
+  .fa-brands,.mail,.phone{
     color:#000;
     border-radius:10%;
     background-color: #fff;
-    margin-left: 1.5vw;
+    margin-left: 0.5vw;
     padding: 0.2vw;
     border:2px solid #fff;
   }
-  .fa-brands:hover{
+  .fa-brands,.fa-envelope-o,.fa-phone{
+    font-size: 20px !important;
+  }
+  .fa-brands:hover,.mail:hover,.phone:hover{
     color: #fff;
     border:2px solid #e03a3c;
     background-color: #e03a3c;
@@ -423,7 +426,12 @@ body{
   .card .details h2{
     font-size: 2rem;
   }
-  
+  .contact-icons{
+    padding-top: 5px;
+  }
+  .fa-brands,.fa-envelope-o,.fa-phone{
+    font-size: 25px !important;
+  }
 }
 @media screen and (max-width:768px){
   .tedx-image{
@@ -467,6 +475,12 @@ body{
   }
   .card .details{
     bottom:6vw;
+  }
+  .contact-icons{
+    padding-top: 5px;
+  }
+  .fa-brands,.fa-envelope-o,.fa-phone{
+    font-size: 30px !important;
   }
 }
 @media screen and (max-width:600px){
