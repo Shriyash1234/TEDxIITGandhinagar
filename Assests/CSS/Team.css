@@ -385,6 +385,15 @@ body{
     padding: 0.2vw;
     border:2px solid #fff;
   }
+  .social{
+    font-size: 20px !important;
+    color:#000;
+    border-radius:10%;
+    background-color: #fff;
+    margin-left: 0.5vw;
+    padding: 0.2vw;
+    border:2px solid #fff;
+  }
   .fa-brands,.fa-envelope-o,.fa-phone{
     font-size: 20px !important;
   }
