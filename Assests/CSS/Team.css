@@ -41,7 +41,7 @@ body{
 .nav > .nav-header {
   display: inline;
   height: 100%;
-  align-items: flex-start;
+  align-items: center;
 }
 .nav-tabs{
   border: 0px;
