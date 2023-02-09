@@ -39,7 +39,7 @@ body{
 }
 
 .nav > .nav-header {
-  display: inline;
+  display: flex;
   height: 100%;
   align-items: center;
 }
@@ -98,7 +98,7 @@ body{
   .nav > .nav-links {
     padding-right: 3vw;
     text-align: end;
-    top:7vh !important;
+    top:6vh !important;
   }
   
   .nav > .nav-btn > label {
