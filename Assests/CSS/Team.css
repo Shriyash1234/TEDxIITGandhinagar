@@ -33,10 +33,15 @@ body{
 }
 .nav-btn{
   padding-right:5vw;
+  height: 100%;
+  display: flex !important;
+  align-items: center;
 }
 
 .nav > .nav-header {
   display: inline;
+  height: 100%;
+  align-items: flex-start;
 }
 .nav-tabs{
   border: 0px;
@@ -83,7 +88,7 @@ body{
   display: none;
 }
 
-@media (max-width:768px) {
+@media (max-width:1120px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -93,7 +98,7 @@ body{
   .nav > .nav-links {
     padding-right: 3vw;
     text-align: end;
-    top:60px !important;
+    top:7vh !important;
   }
   
   .nav > .nav-btn > label {
@@ -122,10 +127,10 @@ body{
     overflow-y: hidden;
     top: 50px;
     left: 0px;
-    padding-right: 10vw;
+    /* padding-right: 10vw; */
   }
   .nav > .nav-links > a {
-    font-size: 1rem;
+    font-size: 1.6rem;
     display: block;
     width: 100%;
   }
@@ -420,6 +425,12 @@ body{
   
 }
 @media screen and (max-width:768px){
+  .tedx-image{
+    width:30rem;
+  }
+  .nav-bar{
+    height:10vh;
+  }
   .box1{
     flex-wrap: wrap;
     align-content: center;
@@ -455,12 +466,26 @@ body{
   }
 }
 @media screen and (max-width:600px){
+  .tedx-image{
+    width:25rem;
+  }
+  .nav-bar{
+    height:9vh;
+  }
   .intial{
     margin-top: 26vw;
   }
   .card:hover .imgBx
   {
     bottom: 100px;
+  }
+}
+@media screen and (max-width:516px){
+  .tedx-image{
+    width:23rem;
+  }
+  .nav-bar{
+    height:8vh;
   }
 }
 @media screen and (max-width:479px){
@@ -482,5 +507,13 @@ body{
   .contact-icons img{
     height: 3rem;
     width: 3rem;
+  }
+}
+@media screen and (max-width:430px){
+  .tedx-image{
+    width:20rem;
+  }
+  .nav-bar{
+    height:7vh;
   }
 }

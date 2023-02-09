@@ -56,10 +56,15 @@ body {
 }
 .nav-btn{
   padding-right:5vw;
+  height: 100%;
+  display: flex !important;
+  align-items: center;
 }
 
 .nav > .nav-header {
   display: inline;
+  height: 100%;
+  align-items: flex-start;
 }
 .nav-tabs{
   border: 0px;
@@ -145,7 +150,7 @@ body {
     overflow-y: hidden;
     top: 50px;
     left: 0px;
-    padding-right: 10vw;
+    /* padding-right: 10vw; */
   }
   .nav > .nav-links > a {
     font-size: 1rem;
