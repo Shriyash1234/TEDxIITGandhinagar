@@ -116,7 +116,7 @@ body {
   .nav > .nav-links {
     padding-right: 3vw;
     text-align: end;
-    top:60px !important;
+    top:7vh !important;
   }
   
   .nav > .nav-btn > label {
@@ -193,7 +193,7 @@ body {
   padding-left: 5vw;
   padding-top: 0vh;
   width:35rem;
-  z-index: -1;
+  z-index: 5;
 }
 .navbar-nav{
   padding-top: 2vh;
@@ -876,6 +876,9 @@ footer a:hover {
   .tedx-image{
     width:30rem;
   }
+  .nav-bar{
+    height:10vh;
+  }
   #link1,#link2,#link3{
     font-size: 2vw;
   }
@@ -976,6 +979,9 @@ footer a:hover {
   .tedx-image{
     width:25rem;
   }
+  .nav-bar{
+    height:9vh;
+  }
   .speaker-images img{
     display: none !important;
   }
@@ -1009,6 +1015,9 @@ footer a:hover {
 @media screen and (max-width:516px){
   .tedx-image{
     width:23rem;
+  }
+  .nav-bar{
+    height:8vh;
   }
   #link1,#link2,#link3{
     font-size: 2vw;
@@ -1047,6 +1056,12 @@ footer a:hover {
 @media screen and (max-width:430px){
   .tedx-image{
     width:20rem;
+  }
+  .nav-bar{
+    height:7vh;
+  }
+  .nav>.nav-links{
+    top:6vh !important
   }
   .banTitle{
     width:70%;
