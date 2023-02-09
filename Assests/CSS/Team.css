@@ -249,6 +249,7 @@ body{
   
   .card:hover .imgBx
   {
+    border: 5px solid #f00;
     bottom: 90px;
   }
   .card:hover .details{
