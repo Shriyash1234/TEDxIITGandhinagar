@@ -480,7 +480,7 @@ body{
     padding-top: 5px;
   }
   .fa-brands,.fa-envelope-o,.fa-phone{
-    font-size: 30px !important;
+    font-size: 25px !important;
   }
 }
 @media screen and (max-width:600px){
