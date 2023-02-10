@@ -377,31 +377,48 @@ body{
     padding-top: 2vw;
     font-size: 1.8rem;
   }
-  .fa-brands,.mail,.phone{
+  .linkedin,.mail,.phone{
+    font-size: 20px !important;
     color:#000;
     border-radius:10%;
-    background-color: #fff;
+    /* background-color: #fff; */
+    margin-left: 0.5vw;
+    padding: 0.2vw;
+  }
+  .social-icons{
+    color:#000;
+    border-radius:10%;
+    /* background-color: #fff; */
     margin-left: 0.5vw;
     padding: 0.2vw;
     border:2px solid #fff;
+    background-color: #fff;
+  }
+
+  .social-icons:hover{
+    color: #fff;
+    border:2px solid #f00;
+    background-color: #f00;
   }
   .social{
     font-size: 20px !important;
     color:#000;
     border-radius:10%;
-    background-color: #fff;
+    border:2px solid #f00;
     margin-left: 0.5vw;
     padding: 0.2vw;
     border:2px solid #fff;
   }
-  .fa-brands,.fa-envelope-o,.fa-phone{
+  .social-icons,.fa-envelope-o,.fa-phone{
     font-size: 20px !important;
   }
-  .fa-brands:hover,.mail:hover,.phone:hover{
+  .mail:hover,.phone:hover,.linkedin:hover{
     color: #fff;
-    border:2px solid #e03a3c;
-    background-color: #e03a3c;
+    /* border:2px solid #000; */
+    transform: translateY(-2px);
+    background-color: #f00;
   }
+
   .fa-facebook-f{
     padding:0.2vw 0.4vw;
   }
@@ -438,7 +455,7 @@ body{
   .contact-icons{
     padding-top: 5px;
   }
-  .fa-brands,.fa-envelope-o,.fa-phone{
+  .social-icons,.fa-envelope-o,.fa-phone{
     font-size: 25px !important;
   }
 }
@@ -488,7 +505,7 @@ body{
   .contact-icons{
     padding-top: 5px;
   }
-  .fa-brands,.fa-envelope-o,.fa-phone{
+  .social-icons,.fa-envelope-o,.fa-phone{
     font-size: 25px !important;
   }
 }

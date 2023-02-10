@@ -1,16 +1,16 @@
 window.onload =()=>{
   const vw = window.innerWidth;
   if(vw<768){
-    $('.a-speakers').attr('href','#phone-speakers')
+    $('.a-speakers').attr('href','index.html#phone-speakers')
   }
 }
 window.onresize =()=>{
   const vw = window.innerWidth;
   if(vw<768){
-    $('.a-speakers').attr('href','#phone-speakers')
+    $('.a-speakers').attr('href','index.html#phone-speakers')
   }
   else{
-    $('.a-speakers').attr('href','#speakers')
+    $('.a-speakers').attr('href','index.html#speakers')
   }
 }
 
@@ -65,7 +65,6 @@ $('a.nav-link.first,a.nav-link.second,a.nav-link.third').mouseout(function() {
   $(this).removeClass('shadow-inset-center');
 });
 
-let flag = 0;
 $('.close,.message-box').on('click',function(){
     $('.nav-bar').css('opacity','1');
     $('section').css('opacity','1');
