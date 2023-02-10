@@ -33,7 +33,8 @@
     left:0%;
     padding-left: 5vw;
     padding-top: 0vh;
-    width:30rem;
+    width:25rem;
+    z-index: 5;
   }
   /* navbar css */
   .navbar {

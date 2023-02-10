@@ -169,12 +169,12 @@ body{
   flex-direction:row;
 }
 .tedx-image{
-  z-index: -1;
+  z-index: 5;
   position: absolute;
   left:0%;
   padding-left: 5vw;
   padding-top: 0vh;
-  width:35rem;
+  width:28rem;
 }
 .navbar-nav{
   padding-top: 2vh;
