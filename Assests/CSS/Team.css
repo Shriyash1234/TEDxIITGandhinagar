@@ -377,6 +377,22 @@ body{
     padding-top: 2vw;
     font-size: 1.8rem;
   }
+  
+  
+.facebook-hai,
+.linkedin-hai,
+.instagram-hai {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-handles-margin {
+  margin-bottom: 16px;
+}
+.social-handles-margin div{
+  margin-right: 12px;
+}
+  
   .linkedin,.mail,.phone{
     font-size: 20px !important;
     color:#000;
