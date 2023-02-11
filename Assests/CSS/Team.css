@@ -385,7 +385,7 @@ body{
     margin-left: 0.5vw;
     padding: 0.2vw;
   }
-  .social-icons{
+  .social-icons,.brands{
     color:#000;
     border-radius:10%;
     /* background-color: #fff; */
@@ -395,7 +395,7 @@ body{
     background-color: #fff;
   }
 
-  .social-icons:hover{
+  .social-icons:hover,.brands:hover{
     color: #fff;
     border:2px solid #f00;
     background-color: #f00;

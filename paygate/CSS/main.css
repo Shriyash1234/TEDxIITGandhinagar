@@ -11,9 +11,9 @@ body {
       width: 100%;
       display: flex;
       flex-direction: column;
-      background-color: #DFDBE5;
-      background-image: url("https://wallpaperaccess.com/full/3063067.png");
-      color:#963E7B;
+      background-color: #1c1c1c;
+      /* background-image: url("https://wallpaperaccess.com/full/3063067.png"); */
+      color:#DC0000;
   }
   
   .card {
@@ -38,6 +38,11 @@ body {
       justify-content: center;
       border-top-left-radius: 1.5rem;
       border-bottom-left-radius: 1.5rem;
+  }
+  .leftside img{
+    height: fit-content;
+    width: 90%;
+    border-radius: 0%;
   }
   
   .product {
@@ -94,7 +99,7 @@ body {
   .button{
       background: linear-gradient(
   135deg
-  , #753370 0%, #298096 100%);
+  , #DC0000 0%, #850000 100%);
       padding: 15px;
       border: none;
       border-radius: 50px;
@@ -117,8 +122,8 @@ body {
   @media only screen and (max-width: 1000px) {
       .card{
           flex-direction: column;
-          width: auto;
-        
+          width: 80%;
+          border-radius: 1.5rem;
       }
   
       .leftside{
@@ -126,13 +131,13 @@ body {
           border-top-right-radius: 0;
           border-bottom-left-radius: 0;
         border-top-right-radius:0;
-        border-radius:0;
+        border-radius:1.5rem;
       }
   
       .rightside{
           width:auto;
           border-bottom-left-radius: 1.5rem;
           padding:0.5rem 3rem 3rem 2rem;
-        border-radius:0;
+        border-radius:1.5rem;
       }
   }
