@@ -490,7 +490,7 @@ h2{
   top:16vw;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 1.4vw;
+  font-size: 1.3vw;
   color: #fff;
   margin: 15px 0;
 }
@@ -498,7 +498,7 @@ h2{
   position: absolute;
   top:19vw;
   font-weight: 600;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
 }
 .carousel .item h4 {
     font-size: 18px;
@@ -702,7 +702,7 @@ h2{
 }
 .box-message .message-box .speaker-information p{
   color: #EBFFFB;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   margin: 0px;
   font-family:Montserrat ;
 }
@@ -852,6 +852,7 @@ footer a:hover {
   }
   .box-message .message-box .speaker-information p{
     margin-top: 1vw;
+    font-size: 1.5vw;
   }
   .box-message .message-box .speaker-information{
     margin-top: 2vw;
@@ -865,6 +866,7 @@ footer a:hover {
   }
   
   .theme{
+    text-align: center;
     width: 70vw;
     margin: auto;
     padding: 3px 3px 3px 3px;
@@ -909,15 +911,15 @@ footer a:hover {
     width: 40vw;
   }
   .mobile-wrapper{
-    height: 65vw !important;
+    height: 68vw !important;
   }
   .carousel .item h2{
-    font-size: 2.2rem;
+    font-size: 2rem;
     top:40vw;
   }
   .carousel .item p{
     top:47vw;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   h2{
     font-size: 4rem;
@@ -955,6 +957,9 @@ footer a:hover {
     text-align: center;
     padding-top: 0px;
     margin-top: 0px;
+  }
+  .box-message .message-box .speaker-information p{
+    font-size: 1.3rem;
   }
   .box-message .message-box .speaker-information h2{
     align-self: center;
@@ -1014,6 +1019,9 @@ footer a:hover {
   .box-message .message-box .speaker-information h2{
     padding-top: 3vw;
   }
+  .box-message .message-box .speaker-information p{
+    font-size: 1.3rem;
+  }
   .sponsers img{
     width:70vw;
     height: 70vw;
@@ -1054,6 +1062,9 @@ footer a:hover {
   .box-message .message-box .speaker-information h2{
     padding-top: 8vw;
   }
+  .box-message .message-box .speaker-information p{
+    font-size: 1.3rem;
+  }
   .carousel .item .youtube-icon{
     top:51vw !important;
   }
@@ -1089,16 +1100,29 @@ footer a:hover {
     height: 50px !important;
     width: 50px !important;
   }
+  .box-message .message-box .speaker-information p{
+    font-size: 1.2rem;
+  }
 }
 @media screen and (max-width:400px){
   .box-message .message-box{
-    height: 90%;
+    height: 80%;
   }
   .mobile-wrapper{
-    height: 82vw !important;
+    height: 75vw !important;
   }
   .carousel .item .youtube-icon{
     top:60.5vw !important;
-
+  }
+  .box-message .message-box .speaker-information p{
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width:325px){
+  .box-message .message-box{
+    height: 90%;
+  }
+  .box-message .message-box .speaker-information p{
+    font-size: 1.2rem;
   }
 }
