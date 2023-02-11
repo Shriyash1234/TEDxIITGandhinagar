@@ -790,6 +790,18 @@ footer a:hover {
   padding-top: 2vw;
   font-size: 1.8rem;
 }
+
+/* trying */
+.facebook-hai, 
+.linkedin-hai,
+.instagram-hai{
+  display: flex;
+  justify-content: space-between;
+}
+.social-handles-margin{
+  margin-bottom: 10px;
+}
+
 .brands{
   color:#000;
   border-radius:10%;
