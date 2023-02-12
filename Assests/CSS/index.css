@@ -215,6 +215,10 @@ body {
   background-position: center;
   background-attachment: fixed;
 } */
+.background{
+  display: flex;
+  justify-content: center;
+}
 .background img{
   margin-top: 2vw;
   height: 100vh;
@@ -862,6 +866,9 @@ footer a:hover {
   }
 }
 @media screen and (max-width:991px) {
+  .background img{
+    width:120%;
+  }
   .nav-row{
     width:80%;
   }
@@ -908,6 +915,9 @@ footer a:hover {
   }
 }
 @media screen and (max-width:768px){
+  .background img{
+    width:140%;
+  }
   .tedx-image{
     width:25rem;
   }
@@ -1017,6 +1027,9 @@ footer a:hover {
   } */
 } 
 @media screen and (max-width:606px){
+  .background img{
+    width:160%;
+  }
   .tedx-image{
     width:23rem;
   }
@@ -1057,6 +1070,9 @@ footer a:hover {
   }
 }
 @media screen and (max-width:516px){
+  .background img{
+    width:165%;
+  }
   .tedx-image{
     width:21rem;
   }
