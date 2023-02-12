@@ -174,7 +174,7 @@ body{
   left:0%;
   padding-left: 5vw;
   padding-top: 0vh;
-  width:28rem;
+  width:36rem;
 }
 .navbar-nav{
   padding-top: 2vh;
@@ -369,7 +369,7 @@ body{
     align-items: flex-start;
     flex: 1 !important;
     margin-bottom: 30px;
-    margin: 0 5%;
+    margin: 0 3%;
   }
   .copyright{
     background-color: #000;
@@ -478,7 +478,7 @@ body{
 }
 @media screen and (max-width:768px){
   .tedx-image{
-    width:30rem;
+    width:32rem;
   }
   .nav-bar{
     height:10vh;
@@ -528,7 +528,7 @@ body{
 }
 @media screen and (max-width:600px){
   .tedx-image{
-    width:25rem;
+    width:28rem;
   }
   .nav-bar{
     height:9vh;
@@ -543,7 +543,7 @@ body{
 }
 @media screen and (max-width:516px){
   .tedx-image{
-    width:23rem;
+    width:25rem;
   }
   .nav-bar{
     height:8vh;
@@ -572,7 +572,7 @@ body{
 }
 @media screen and (max-width:430px){
   .tedx-image{
-    width:20rem;
+    width:23rem;
   }
   .nav-bar{
     height:7vh;

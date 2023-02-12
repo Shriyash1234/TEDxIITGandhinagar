@@ -197,7 +197,7 @@ body {
   left:0%;
   padding-left: 5vw;
   padding-top: 0vh;
-  width:27rem;
+  width:37rem;
   z-index: 5;
 }
 .navbar-nav{
@@ -205,7 +205,7 @@ body {
 /*   padding-left: 4.5vw; */
   padding-left: 52.5vw;
 }
-/* .background{
+.background{
   width:100vw;
   margin-top: 5vw;
   height:90vh;
@@ -214,11 +214,11 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-} */
-.background{
+}
+/* .background{
   display: flex;
   justify-content: center;
-}
+} */
 .background img{
   margin-top: 2vw;
   height: 100vh;
@@ -801,7 +801,7 @@ footer a:hover {
 .footer-col {
   flex: 1;
   margin-bottom: 30px;
-  margin: 0 5%;
+  margin: 0 3%;
 }
 .copyright{
   background-color: #000;
@@ -839,7 +839,9 @@ footer a:hover {
   padding:0.2vw 0.4vw;
 }
 /* footer CSS complete */
-
+iframe{
+  margin-top: 2vw;
+}
 
 @media screen and (max-width:1300px){
   .theme-video{
@@ -919,7 +921,7 @@ footer a:hover {
     width:140%;
   }
   .tedx-image{
-    width:25rem;
+    width:28rem;
   }
   .nav-bar{
     height:10vh;
@@ -1031,7 +1033,7 @@ footer a:hover {
     width:160%;
   }
   .tedx-image{
-    width:23rem;
+    width:26rem;
   }
   .nav-bar{
     height:9vh;
@@ -1074,7 +1076,7 @@ footer a:hover {
     width:165%;
   }
   .tedx-image{
-    width:21rem;
+    width:24rem;
   }
   .nav-bar{
     height:8vh;
@@ -1115,7 +1117,7 @@ footer a:hover {
 }
 @media screen and (max-width:430px){
   .tedx-image{
-    width:18rem;
+    width:21rem;
   }
   .nav-bar{
     height:7vh;
@@ -1135,7 +1137,7 @@ footer a:hover {
     top: 52vw;
   }
   .box-message .message-box{
-    height: 65%;
+    height: 70%;
   }
   .carousel .item .youtube-icon{
     font-size: 25px !important;
@@ -1150,7 +1152,7 @@ footer a:hover {
 }
 @media screen and (max-width:400px){
   .box-message .message-box{
-    height: 80%;
+    height: 70%;
   }
   .mobile-wrapper{
     height: 75vw !important;
