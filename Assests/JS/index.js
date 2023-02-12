@@ -82,7 +82,7 @@ for(let i=0;i<6;i++){
     $('section').css('opacity','1');
      setTimeout(function() {
       $('.message-box'+list[i]+'-speaker').css('display','none');
-    }, 1000);
+    }, 100);
     $('.message-box'+list[i]+'-speaker').css("transform","translate(0,-73vh)");
   })
 

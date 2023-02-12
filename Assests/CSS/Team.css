@@ -183,6 +183,7 @@ body{
 }
 /* navbar CSS complete */
 .team-heading{
+  text-align: center;
   font-family: Raleway,sans-serif;
   color: white !important;
   font-size: 3.5rem;

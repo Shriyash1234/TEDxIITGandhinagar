@@ -205,7 +205,8 @@ body {
 /*   padding-left: 4.5vw; */
   padding-left: 52.5vw;
 }
-.background{
+/* .background{
+  width:100vw;
   margin-top: 5vw;
   height:90vh;
   background-image: url(../img/bg1.jpg);
@@ -213,6 +214,12 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+} */
+.background img{
+  margin-top: 2vw;
+  height: 100vh;
+  width:100%;
+  object-fit: fill;
 }
 .banTitle{
   position: absolute;
@@ -706,6 +713,15 @@ h2{
   margin: 0px;
   font-family:Montserrat ;
 }
+.box-message .message-box .speaker-information .brands {
+  font-size: 2.5rem;
+  color:#fff;
+  background-color: #0077B5;
+  border:2px solid #0077B5;
+}
+/* .box-message .message-box .speaker-information .brands:hover {
+  font-size: 2.6rem;
+} */
 /* message box CSS complete */
 
 /* sponsers CSS */
@@ -1103,7 +1119,7 @@ footer a:hover {
     top: 52vw;
   }
   .box-message .message-box{
-    height: 80%;
+    height: 65%;
   }
   .carousel .item .youtube-icon{
     font-size: 25px !important;
@@ -1113,7 +1129,7 @@ footer a:hover {
     width: 50px !important;
   }
   .box-message .message-box .speaker-information p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }
 @media screen and (max-width:400px){
