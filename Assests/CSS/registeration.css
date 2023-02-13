@@ -20,6 +20,10 @@ html{
   .ff-title,p,.ff-item-qs, .ff-form-check-label,.ff-success,.ff-description,.ff-section-header {
     color: #fff;
   }
+  .ff-section-header{
+    font-size: 1.3rem !important;
+    font-family: Raleway,sans-serif;
+  }
   .ff-success{
     font-size: 2rem;
     width: max-content !important;
@@ -29,13 +33,19 @@ html{
     width:fit-content !important;
   }
 
-  /* #ff-compose{
-    margin-top: 45vh !important;
-  } */
-
-  /* .ff-check-cell-image{
-    padding-left: 15vw;
-  } */
+  .ff-description{
+    font-family: 'Helvetica';
+  }
+  .form-group,.ff-description{
+    padding: 25px 25px !important;
+    margin: 20px auto !important;
+    background-color: #000;
+    border-radius: 10px;
+  }
+  .ff-item-qs{
+    font-family: Raleway,sans-serif;
+    font-weight: 600 !important;
+  } 
   
 
   .ff-button-bar img{
