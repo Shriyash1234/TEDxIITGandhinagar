@@ -1,5 +1,6 @@
 window.onload =()=>{
     const vw = window.innerWidth;
+    $('.addfile').html('Upload Photo');
     if(vw<768){
       $('.a-speakers').attr('href','index.html#phone-speakers')
     }
@@ -13,4 +14,5 @@ window.onload =()=>{
       $('.a-speakers').attr('href','index.html#speakers')
     }
   }
+
  

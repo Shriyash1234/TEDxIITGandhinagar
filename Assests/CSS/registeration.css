@@ -9,7 +9,10 @@ html{
     margin: 8rem auto auto auto;
     width:fit-content;
     border-radius: 10px;
-    border: 5px solid #f00;
+  }
+  .ff-section img{
+    border-radius: 10px;
+    padding-bottom: 0px !important;
   }
   .container{
     border:none !important;
@@ -17,8 +20,11 @@ html{
   .ff-description button{
     display: none !important;
   }
-  .ff-title,p,.ff-item-qs, .ff-form-check-label,.ff-success,.ff-description,.ff-section-header {
+  p,.ff-item-qs, .ff-form-check-label,.ff-success,.ff-description,.ff-section-header {
     color: #fff;
+  }
+  .ff-title{
+    display: none;
   }
   .ff-section-header{
     font-size: 1.3rem !important;
@@ -35,6 +41,9 @@ html{
 
   .ff-description{
     font-family: 'Helvetica';
+  }
+  .ff-description b{
+    font-size: 2rem;
   }
   .form-group,.ff-description{
     padding: 25px 25px !important;
@@ -54,6 +63,7 @@ html{
   .ff-button-bar button{
     /* background-color:#f00 !important; */
     border: none !important;
+    padding: 0.6rem 1.5rem !important;
   }
   .ff-button-bar button:hover{
     background-color:#fff !important;
