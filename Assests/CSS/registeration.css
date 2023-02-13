@@ -1,0 +1,274 @@
+html{
+    scroll-behavior: smooth;
+  }
+  body {
+    overflow-x: hidden;
+    background-color: #1c1c1c !important;
+  }
+  #ff-compose{
+    margin: 8rem auto auto auto;
+    width:fit-content;
+    border-radius: 10px;
+    border: 5px solid #f00;
+  }
+  .container{
+    border:none !important;
+  }
+  .ff-description button{
+    display: none !important;
+  }
+  .ff-title,p,.ff-item-qs, .ff-form-check-label,.ff-success {
+    color: #fff;
+  }
+  .ff-success{
+    font-size: 2rem;
+    width: max-content !important;
+    height:10vh !important;
+  }
+  .ff-form{
+    width:fit-content !important;
+  }
+  /* #ff-compose{
+    margin-top: 45vh !important;
+  } */
+
+  /* .ff-check-cell-image{
+    padding-left: 15vw;
+  } */
+  
+
+  .ff-button-bar img{
+    display: none;
+  }
+  .ff-button-bar button{
+    /* background-color:#f00 !important; */
+    border: none !important;
+  }
+  .ff-button-bar button:hover{
+    background-color:#fff !important;
+    color:#0d6efd;
+  }
+  .ff-button-bar span{
+    font-size: 1rem !important;
+  }
+  .material-icons{
+    display: none !important;
+  }
+  
+  /* navbar css */
+  .navbar {
+    /* to make the navbar sticky */
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: #000 !important;
+    padding-bottom: 20px;
+    z-index: 100;
+  }
+  .nav-bar {
+    top:0%;
+    margin: 1.5vw 0vw;
+    margin-top: 0vw;
+    padding-top: 1vw;
+    z-index: 100;
+    position: fixed !important;
+    height: 12vh;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+  }
+  .nav-btn{
+    padding-right:5vw;
+    height: 100%;
+    display: flex !important;
+    align-items: center;
+  }
+  
+  .nav > .nav-header {
+    display: flex;
+    height: 100%;
+    align-items: flex-start;
+  }
+  .nav-tabs{
+    border: 0px;
+  }
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    margin-top: 0.3vw;
+    background-color: #000 !important;
+    margin-right: 5vw;
+    position: absolute;
+    right: 0%;
+    display: inline;
+    float: right;
+    font-size: 1.5rem;
+  }
+  
+  .nav > .nav-links > a {
+    position: relative;
+    top:-10px;
+    font-size: 1rem;
+    font-family: raleway,sans-serif;
+    display: inline-block;
+    padding: 13px 14px;
+    text-decoration: none;
+    color: #efefef;
+    font-weight: 600;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:1120px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-links {
+      padding-right: 3vw;
+      text-align: end;
+      top:7vh !important;
+    }
+    
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+      cursor:pointer;
+    }
+    .nav > .nav-links {
+      position: absolute;
+  /*     display: block; */
+      width: 100%;
+      background-color: #333;
+      max-height: 0px;
+      transition: all 0.5s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+      /* padding-right: 10vw; */
+    }
+    .nav > .nav-links > a {
+      font-size: 1rem;
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      max-height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+  /*     height: calc(100vh - 50px); */
+      max-height:400px;
+      overflow-y: hiddin;
+    }
+  }
+  .get-tickets{
+    font-family: Raleway,sans-serif;
+    border:0px !important;
+    color: #fff;
+    background-color: rgb(254, 42, 6);
+    font-weight: 600;
+    padding: 0.5vw 1.5vw;
+    border-radius: 10px;
+  }
+  .get-tickets:hover{
+    background-color: #181818;
+  }
+  .collapse {
+    padding-left: 18px;
+  }
+  
+  .nav > .nav-links > a:hover {
+    color: red;
+  }
+  
+  /* navbar css complete */
+  .tedx-image{
+    position: absolute;
+    left:0%;
+    padding-left: 5vw;
+    padding-top: 0vh;
+    width:24rem;
+    z-index: 5;
+  }
+
+
+  @media screen and (max-width:991px) {
+    .nav-row{
+      width:80%;
+    }
+    .tedx-image{
+        width:22rem;
+      }
+  }
+  @media screen and (max-width:768px){
+    .tedx-image{
+      width:20rem;
+    }
+    .nav-bar{
+      height:10vh;
+    }
+    .nav > .nav-header {
+      align-items: center;
+    }
+    .nav>.nav-links{
+      padding-right: 5vw !important;
+    }
+    .nav > .nav-links > a{
+      font-size: 2rem;
+    }
+  } 
+  @media screen and (max-width:606px){
+    .tedx-image{
+      width:19rem;
+    }
+    .nav-bar{
+      height:9vh;
+    }
+  }
+  @media screen and (max-width:516px){
+    .tedx-image{
+      width:18rem;
+    }
+    .nav-bar{
+      height:8vh;
+    }
+  }
+  @media screen and (max-width:430px){
+    .tedx-image{
+      width:16rem;
+    }
+    .nav-bar{
+      height:7vh;
+    }
+    .nav>.nav-links{
+      top:6vh !important
+    }
+  }
