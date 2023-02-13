@@ -17,7 +17,7 @@ html{
   .ff-description button{
     display: none !important;
   }
-  .ff-title,p,.ff-item-qs, .ff-form-check-label,.ff-success,.ff-description {
+  .ff-title,p,.ff-item-qs, .ff-form-check-label,.ff-success,.ff-description,.ff-section-header {
     color: #fff;
   }
   .ff-success{
