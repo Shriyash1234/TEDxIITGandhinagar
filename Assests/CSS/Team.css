@@ -394,7 +394,7 @@ body{
   margin-right: 12px;
 }
   
-  .linkedin,.mail,.phone{
+  .linkedin,.mail,.phone,.github{
     font-size: 20px !important;
     color:#000;
     border-radius:10%;
@@ -429,9 +429,9 @@ body{
   .social-icons,.fa-envelope-o,.fa-phone{
     font-size: 20px !important;
   }
-  .mail:hover,.phone:hover,.linkedin:hover{
+  .mail:hover,.phone:hover,.linkedin:hover,.github:hover{
     color: #fff;
-    /* border:2px solid #000; */
+    border:2px solid #f00;
     transform: translateY(-2px);
     background-color: #f00;
   }
@@ -524,6 +524,9 @@ body{
   }
   .social-icons,.fa-envelope-o,.fa-phone{
     font-size: 25px !important;
+  }
+  .mail,.linkedin,.phone,.github{
+    font-size: 28px !important;
   }
 }
 @media screen and (max-width:600px){
