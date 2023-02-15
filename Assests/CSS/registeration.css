@@ -75,6 +75,11 @@ html{
   .material-icons{
     display: none !important;
   }
+  i{
+    font-style: normal !important;
+    font-weight: bolder;
+    font-size: large;
+  }
   
   /* navbar css */
   .navbar {
