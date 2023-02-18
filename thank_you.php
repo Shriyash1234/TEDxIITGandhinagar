@@ -110,7 +110,7 @@
                 Your payment is sucessful.
             </h2>    
             <button class="redirect-button" onclick = "window.location.href = './index.html';">
-                Home
+                go to Home
             </button>
         </div>
         

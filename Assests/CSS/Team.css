@@ -526,7 +526,7 @@ body{
     font-size: 25px !important;
   }
   .mail,.linkedin,.phone,.github{
-    font-size: 28px !important;
+    font-size: 22px !important;
   }
 }
 @media screen and (max-width:600px){

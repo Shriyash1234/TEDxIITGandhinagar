@@ -175,8 +175,24 @@ body {
   padding: 0.5vw 1.5vw;
   border-radius: 10px;
 }
-.get-tickets:hover{
+.date-get-tickets{
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: Montserrat;
+  border:0px !important;
+  color: #fff;
+  background-color: rgb(254, 42, 6);
+  font-weight: 600;
+  margin-top: 2rem;
+  padding: 0.7vw 1.5vw;
+  border-radius: 5px;
+}
+.get-tickets:hover,.date-get-tickets:hover{
   background-color: #181818;
+}
+.date-tickets{
+  padding: 10rem 0rem;
+  background-color: #1c1c1c;
 }
 .collapse {
   padding-left: 18px;
@@ -373,7 +389,7 @@ body {
 }
 .inactive{
   color: white !important;
-  background-color: #03001C !important;
+  background-color: #20262E !important;
 }
 /* .nav-item>.active {
 	background: white !important;
@@ -402,7 +418,7 @@ body {
 }
 
 .about{
-  margin-top: 10vh;
+  padding-top: 10vh;
 }
 .shadow-inset-center {
 	-webkit-animation: shadow-inset-center 0.4s cubic-bezier(1, 1, 1, 1) both;
@@ -411,6 +427,9 @@ body {
 
 
 /* current-speakers CSS */
+.current-speakers{
+  background-color: #1c1c1c;
+}
 h2{
   font-family: Raleway,sans-serif;
   text-align: center;
