@@ -430,6 +430,16 @@ body {
 .current-speakers{
   background-color: #1c1c1c;
 }
+.wrapper-button{
+  border: none;
+  color: #fff;
+  background-color: #f00;
+  font-size: large;
+  top:24vw;
+  height: 3.5rem;
+  border-radius: 5px;
+  position: absolute;
+}
 h2{
   font-family: Raleway,sans-serif;
   text-align: center;
@@ -456,7 +466,7 @@ h2{
   margin-top: 80px;
   display: flex;
   justify-content: center;
-  height: 25vw;
+  height: 27vw;
   padding: 25px 15px;
   /* background: #fff; */
   border-radius: 6px;
@@ -859,7 +869,7 @@ footer a:hover {
 }
 /* footer CSS complete */
 iframe{
-  margin-top: 2vw;
+  margin-top: 0vw;
 }
 
 @media screen and (max-width:1300px){
@@ -980,6 +990,9 @@ iframe{
     top:47vw;
     font-size: 1.8rem;
   }
+  .wrapper-button{
+    top:56vw;
+  }
   h2{
     font-size: 4rem;
   }
@@ -1089,6 +1102,9 @@ iframe{
     height: 70vw;
     margin-bottom: 8vw;
   }
+  .wrapper-button{
+    top:59vw;
+  }
 }
 @media screen and (max-width:516px){
   .background img{
@@ -1133,6 +1149,9 @@ iframe{
   .carousel .item .youtube-icon{
     top:51vw !important;
   }
+  .wrapper-button{
+    top:61vw;
+  }
 }
 @media screen and (max-width:430px){
   .tedx-image{
@@ -1150,7 +1169,7 @@ iframe{
   }
   
   .mobile-wrapper{
-    height:77vw !important;
+    height:80vw !important;
   }
   .carousel .item p{
     top: 52vw;
@@ -1168,19 +1187,25 @@ iframe{
   .box-message .message-box .speaker-information p{
     font-size: 1.4rem;
   }
+  .wrapper-button{
+    top:63vw;
+  }
 }
 @media screen and (max-width:400px){
   .box-message .message-box{
     height: 70%;
   }
   .mobile-wrapper{
-    height: 75vw !important;
+    height: 85vw !important;
   }
   .carousel .item .youtube-icon{
     top:60.5vw !important;
   }
   .box-message .message-box .speaker-information p{
     font-size: 1.2rem;
+  }
+  .wrapper-button{
+    top:72vw;
   }
 }
 @media screen and (max-width:325px){
