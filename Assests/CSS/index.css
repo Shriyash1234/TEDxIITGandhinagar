@@ -191,7 +191,7 @@ body {
   background-color: #181818;
 }
 .date-tickets{
-  padding: 10rem 0rem;
+  padding: 10rem 3rem;
   background-color: #1c1c1c;
 }
 .collapse {
@@ -1150,7 +1150,7 @@ iframe{
     top:51vw !important;
   }
   .wrapper-button{
-    top:61vw;
+    top:67vw;
   }
 }
 @media screen and (max-width:430px){
@@ -1188,7 +1188,7 @@ iframe{
     font-size: 1.4rem;
   }
   .wrapper-button{
-    top:63vw;
+    top:71vw;
   }
 }
 @media screen and (max-width:400px){
@@ -1205,7 +1205,7 @@ iframe{
     font-size: 1.2rem;
   }
   .wrapper-button{
-    top:72vw;
+    top:73vw;
   }
 }
 @media screen and (max-width:325px){

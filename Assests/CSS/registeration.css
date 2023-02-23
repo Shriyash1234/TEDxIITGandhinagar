@@ -34,6 +34,7 @@ html{
     font-size: 2rem;
     width: max-content !important;
     height:10vh !important;
+    width:80vh !important
   }
   .ff-form{
     width:fit-content !important;
