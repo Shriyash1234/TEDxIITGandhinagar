@@ -867,6 +867,10 @@ footer a:hover {
 .fa-facebook-f{
   padding:0.2vw 0.4vw;
 }
+.fa-linkedin-in{
+  z-index: 5;
+  position: relative;
+} 
 /* footer CSS complete */
 iframe{
   margin-top: 0vw;
